@@ -1,0 +1,81 @@
+#100 day python
+#day 1
+#if loop
+
+a = int(input("enter the num: "))
+
+if a>60:
+  print("aye lesgo")
+else:
+  print("umh sad")
+
+a = int(input("enter the num: "))
+if a>60:
+  print("aye lesgo")
+elif(a==55):
+  print("ok this is interesting")
+elif(a<60):
+  print("this is nice")
+
+
+#Students marks portal
+
+i = int(input("enter the marks: "))
+
+if i>95:
+    distinction = True
+else:
+    distinction = False
+
+if i >= 90:
+  grade = 'A'
+
+elif i>=80 and i<90:
+  grade = 'B'
+
+elif i>=70 and i<80:
+  grade = 'C'
+
+elif i>=60 and i<70:
+  grade = 'D'
+
+elif i>=50 and i<60:
+  grade = 'E'
+
+else:
+  grade = 'F'
+
+print(grade)
+if distinction:
+  print("Congragulations, you are amazing")
+
+
+#while loop
+
+i = 1
+
+while i<60:
+  print (i)
+  i+=1
+else:
+  print("khatam tata bye-bye")
+
+#infinite while
+
+i = 1
+while True:
+  print(i,end=',')
+  i+=1
+
+#for loop
+
+for i in range (0,5,2):
+  print(i)
+
+#modulo operator and loop conditions
+
+for i in range(1,23,1):
+  if i%3==1:
+    print(i)
+  else:
+    (print("meh"))
